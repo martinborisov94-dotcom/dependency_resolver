@@ -1,0 +1,36 @@
+[MASTER]
+# Number of parallel jobs for faster linting (1 = single process)
+jobs=1
+
+# Save data between runs for comparison and faster subsequent runs
+persistent=yes
+
+# Additional pylint plugins to load (empty = no extra plugins)
+load-plugins=
+
+# Allow/disallow loading of arbitrary C extensions for safety
+unsafe-load-any-extension=no
+
+# Whitelist of C extension packages that are allowed to be loaded
+extension-pkg-allow-list=
+
+# Minimum Python version your code should support
+py-version=3.8
+
+# Maximum number of inferred values when analyzing code
+limit-inference-results=100
+
+# Minimum score required to pass (8.0 out of 10.0)
+fail-under=8.0
+
+# Exit with error if these specific messages are found (empty = none)
+fail-on=
+
+
+[MESSAGES CONTROL]
+# Only show warnings with specific confidence levels (empty = all levels)
+confidence=
+
+# Explicitly enable these specific checks
+enable=
+    # Check for members in C
